@@ -1,6 +1,8 @@
 ---
 blobstore:
-  provider: local
+  provider: s3
   options:
-    blobstore_path: ~/blobs
+    bucket_name: 3b012b9b-d804-4020-8866-b8c6b44ccd9b
+    region: eu-west-1
+    endpoint: https://s3-eu-west-1.amazonaws.com
 final_name: ardo_app
