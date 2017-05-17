@@ -5,3 +5,7 @@ templates:
 packages:
 - ardo_app
 - ruby_1.9.3
+properties:
+    web_ui.port:
+      description: Port that web_ui app listens on
+      default: 80
