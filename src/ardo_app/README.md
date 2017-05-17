@@ -1,0 +1,1 @@
+## Test application "ardo_app" for http://bosh.io/docs/create-release.html
