@@ -1,0 +1,32 @@
+---
+packages:
+- name: ardo_app
+  version: 1ac91e94ec698a530872678e6c859a1f4b20b45f
+  fingerprint: 1ac91e94ec698a530872678e6c859a1f4b20b45f
+  sha1: '008a68c8e1a0e064190f1129e522abbbe1b3f74f'
+  dependencies:
+  - ruby_1.9.3
+- name: libyaml_0.1.4
+  version: c327e5f38ce5e1662c91a23f0bbb87ecfee7524d
+  fingerprint: c327e5f38ce5e1662c91a23f0bbb87ecfee7524d
+  sha1: eafda673f1927f2a140a0ca1a37594a37c6f8682
+  dependencies: []
+- name: ruby_1.9.3
+  version: 3c0ee00047d079c8e56caf248b4c68619199f315
+  fingerprint: 3c0ee00047d079c8e56caf248b4c68619199f315
+  sha1: 01bbedc6b9cb55d9c5db17a9c92b5653f0a0817e
+  dependencies:
+  - libyaml_0.1.4
+jobs:
+- name: bg_worker
+  version: 51962bcd9b9fa8be5f4ae057022c313efac7e8ea
+  fingerprint: 51962bcd9b9fa8be5f4ae057022c313efac7e8ea
+  sha1: ff3d2140c60e60bf48b9d054d8b54eab7721a5aa
+- name: web_ui
+  version: b408f76bf34a656276fcd176681af13df971ff00
+  fingerprint: b408f76bf34a656276fcd176681af13df971ff00
+  sha1: 59e3b7b8e42dfa1a4a73b0d8955c90de594578f6
+commit_hash: 5def2e38
+uncommitted_changes: true
+name: ardo_app
+version: '1'
